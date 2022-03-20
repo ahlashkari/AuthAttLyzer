@@ -27,13 +27,16 @@ Then activate the environment via ```conda activate authorshipevasion```.
 in your python environment. I strongly recommend using a virtualenv or
 conda environment.
 
-3. Adjust the configuration in PyProject.
+3. Adjust the configuration in AuthAttLyzer
+
   - The config file saves all paths that we need to consider, such as path to this repo, path to clang, etc.
   What you have to do:
       1. Copy config_example.ini to config.ini
       2. Adjust config.ini to your own paths
       3. For IWYU, use a path like: `/home/<YOUR_PATH>/iwyu/include-what-you-use/build/`
   - Assure that Configuration.py and config.ini are in the same directory.
+
+4. Unzip the dataset_2017 file in the data folder
 
 
 ## Attribution
