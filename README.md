@@ -1,4 +1,4 @@
-# Python Project Authorship Evasion
+# Python based source code Authorship Attribution 
 
 This directory contains all the code to perform
 authorship attribution based on the extracted features and
