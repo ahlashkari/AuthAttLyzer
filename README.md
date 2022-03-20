@@ -1,18 +1,15 @@
 # Python based source code Authorship Attribution 
 
 This directory contains all the code to perform
-authorship attribution based on the extracted features and
-to perform the attacks.
+authorship attribution based on the extracted features 
 
 ## About
 
 In particular, you'll find here the code for the following
 two groups of experiments:
 
-1. *Code Authorship Attribution.* Extract features for a dataset and try to
+*Code Authorship Attribution.* Extract features for a dataset and try to
 assign source code to authors.
-2. *Authorship Attacks.* This group allows attacks
-against the learning models from step 1.
 
 ## Setup
 In this directory, you will find a *requirements.txt* and *config_example.ini*
