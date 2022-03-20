@@ -66,7 +66,7 @@ Then, we will learn a classification model to differentiate between the authors.
 - Alternatively, you may need to set up the python path. Or if you're in your terminal,
 you can set the path for each python call, such as:
 ```
-$PYPATH="/<path-to-repo>/src/PyProject"
+$PYPATH="<path-to-repo>"
 $PYTHONPATH=${PYPATH} python evaluations/blackbox/attack/blackbox_attack_batch.py
 ```
 
