@@ -1,15 +1,17 @@
-# Python based source code Authorship Attribution 
+# AuthAttLyzer (Authorship Attribution Analyzer)
 
-This directory contains all the code to perform
-authorship attribution based on the extracted features 
+
+
+
+## Python based source code Authorship Attribution 
+
+This directory contains all the code to perform authorship attribution based on the extracted features 
 
 ## About
 
-In particular, you'll find here the code for the following
-two groups of experiments:
+In particular, you'll find here the code for the following two groups of experiments:
 
-*Code Authorship Attribution.* Extract features for a dataset and try to
-assign source code to authors.
+*Code Authorship Attribution.* Extract features for a dataset and try to assign source code to authors.
 
 ## Setup
 In this directory, you will find a *requirements.txt* and *config_example.ini*
@@ -20,8 +22,7 @@ I've tested everything with conda. Use Python 3.6, with conda,
 you can use ```conda create --name authorshipevasion python=3.6```.
 Then activate the environment via ```conda activate authorshipevasion```.
 
-2. Install via ```pip install -r requirements.txt``` the dependencies
-in your python environment. I strongly recommend using a virtualenv or
+2. Install via ```pip install -r requirements.txt``` the dependencies in your python environment. I strongly recommend using a virtualenv or
 conda environment.
 
 3. Adjust the configuration in AuthAttLyzer
@@ -37,5 +38,17 @@ conda environment.
 
 
 ## Attribution
-Read the [attribution-markdown](./README_ATTRIBUTION.md) file to get the details how to set up
-the whole attribution.
+Read the [attribution-markdown](./README_ATTRIBUTION.md) file to get the details how to set up the whole attribution.
+
+
+### Project Team members 
+
+* [**Arash Habibi Lashkari:**](http://ahlashkari.com/index.asp) Supervisor
+
+* [**Tristan Carrier:**](https://github.com/TristanCarrier) Researcher and developer
+
+
+
+### Acknowledgement 
+
+This project has been made possible through funding from the [**Mitacs Global Internship**](https://www.mitacs.ca/en/programs/globalink/globalink-research-internship). 
