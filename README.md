@@ -3,17 +3,18 @@
 
 
 
-## Python based source code Authorship Attribution 
+
+### Python based source code Authorship Attribution 
 
 This directory contains all the code to perform authorship attribution based on the extracted features 
 
-## About
+### About
 
 In particular, you'll find here the code for the following two groups of experiments:
 
 *Code Authorship Attribution.* Extract features for a dataset and try to assign source code to authors.
 
-## Setup
+### Setup
 In this directory, you will find a *requirements.txt* and *config_example.ini*
 file. We will need both files in the following.
 
@@ -37,11 +38,12 @@ conda environment.
 4. Unzip the dataset_2017 file in the data folder
 
 
-## Attribution
+### Attribution
 Read the [attribution-markdown](./README_ATTRIBUTION.md) file to get the details how to set up the whole attribution.
 
 
-### Project Team members 
+
+## Project Team members 
 
 * [**Arash Habibi Lashkari:**](http://ahlashkari.com/index.asp) Supervisor
 
