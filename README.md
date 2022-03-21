@@ -45,7 +45,7 @@ Read the [attribution-markdown](./README_ATTRIBUTION.md) file to get the details
 
 * [**Arash Habibi Lashkari:**](http://ahlashkari.com/index.asp) Supervisor
 
-* [**Abhishek Chopra:**]() Researcher and developer
+* [**Abhishek Chopra:**](https://github.com/abhishekchopra0907) Researcher and developer
 
 
 
