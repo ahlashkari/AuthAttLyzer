@@ -53,12 +53,6 @@ be more interpretable, as you can see what features changed after a code transfo
 They should only be used for the unit tests. For your own attribution
 and evasion experiments, you need to extract the features yourself (as described above)!
 
-## Machine Learning
-Now we switch to the python world. We have all the features as json file.
-For our USENIX paper, the features are located under *data/dataset_2017/libtoolingfeatures_2017_8_formatted_macrosremoved*.
-
-The next step is to extract these files in Python and to create a feature matrix.
-Then, we will learn a classification model to differentiate between the authors.
 
 ### Getting started
 - Load the python project *PyProject* into your IDE (e.g. PyCharm).
@@ -85,41 +79,7 @@ Check that this link is working on your OS. Moreover, check that all files are p
 Check you've called the file with the correct python path.
 Otherwise, you can contact me if you cannot find the error.
 
-### Tutorial
-Look at the ```evaluations/tutorial_classification.py``` and ```evaluations/tutorial_classification_2.py```.
-They provide a detailed tutorial about the feature API and how to create a first learning model.
 
-### Learning
-- To create the final learning models for your evaluation, consider
-the file ```evaluations/learning/rf_usenix/train_models_parallel.py```.
-- If you do not start the script via bash (see start_train_models_parallel.sh),
- pass the PROBLEM_ID in python as string simply, and remove the args parser.
-- Go through the script step by step.
-- For Abuhamad et al., we have an equivalent script located under *rnn_css*.
-
-#### Structure
-A short introduction to the python directories, as located under *PyProject*:
-- *evaluations*
-  - *learning*
-    - This directory contains the code to learn classification models
-    on the dataset with the method by Caliskan et al. and by Abuhamad et al..
-    We call the first method "rf_usenix", the second "rnn_css" based
-    on the conference and the proposed learning model.
-    - *post_learning_steps*: This directory contains some analysis scripts to evaluate the learning
-      results. We can analyze the accuracy and the extracted features for
-      code attribution. We also collect a list of author pairs that are
-      successfully classified across all problems in our dataset.
-      Furthermore, we have a script to get author pairs that are successfully
-      classified across all problems by *both* models
-      (Caliskan et al. and Abuhamad et al.). This is useful
-      for our impersonation evaluation, as the pairs should be classified
-      correctly before any attack.
-- *classifications*
-  - This directory contains all the learning code.
-- *ConfigurationLearning*
-  - These classes here bundle all the settings for learning.
-- *featureextractionV2*
-  - All classes that extract the different types of features.
 
 ### Some notes about the feature classes
 - *StyloFeatures*  is the abstract parent class.
