@@ -35,8 +35,6 @@ the feature extraction commands.
 
 1. Now go to the data directory under the project's root directory.
 2. You will find there a extractfeatures_single.sh.
-  - Adjust the path to the java jar.
-    I've used an environment variable CMD_DIR_NAIVEBASELINEJAR but you can set the path here simply.
   - Adjust the relative paths to the dataset.
     - Adjust the variables SRC and OUTPUT_DIR
   - The remaining paths are extracted automatically.
@@ -57,16 +55,8 @@ and evasion experiments, you need to extract the features yourself (as described
 ### Getting started
 - Load the python project *PyProject* into your IDE (e.g. PyCharm).
 - Make sure your root directory is PyProject.
-- Alternatively, you may need to set up the python path. Or if you're in your terminal,
-you can set the path for each python call, such as:
-```
-$PYPATH="<path-to-repo>"
-$PYTHONPATH=${PYPATH} python evaluations/blackbox/attack/blackbox_attack_batch.py
-```
+- Alternatively, you may need to set up the python path
 
-### Test your setup
-1. Open the python file *UnitTests/testFeatureExctraction.py*. All tests should pass.
-2. Open the python file *UnitTests/test_learning.py*. All tests should pass.
 
 If something goes wrong, check if all your paths are correctly set.
 The directory ```/<path-to-repo>/data/dataset_2017/libtoolingfeatures_for_public_testing/```
