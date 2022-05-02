@@ -56,7 +56,7 @@ Abhishek Chopra and Arash Habibi Lashkari, "????", The second IEEE International
 
 ## Project Team members 
 
-* [**Arash Habibi Lashkari:**](http://ahlashkari.com/index.asp) Supervisor
+* [**Arash Habibi Lashkari:**](http://ahlashkari.com/index.asp) Founder and supervisor
 
 * [**Abhishek Chopra:**](https://github.com/abhishekchopra0907) Researcher and developer
 
