@@ -112,6 +112,17 @@ Otherwise, you can contact me if you cannot find the error.
 
 
 ### Some notes about the feature classes
+
+-These are the features we extract-
+  -Ast_node_bigram
+  -Ast_node_types
+  -Ast_node_max_depth
+  -Code in Ast_leaves
+  -Character 1-grams
+  -Character 2-grams
+  -Character 3-grams
+  -Code2Vec embedding 
+
 - *StyloFeatures*  is the abstract parent class.
 - Then, we have a child class for the different sources of features.
 We have features that we load from the java implementation by Caliskan et al.,
