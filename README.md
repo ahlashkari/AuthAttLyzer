@@ -2,12 +2,12 @@
 
 
 
-## Language-dependent Authorship Attribution 
-This sub-project extracted some language-dependent features from the source code. 
+## AuthAttLyzer-V1
+This sub-project extracted three groups of features including N-gram and Word-based embeddings from Language-independent, and Abstract Syntax Tree (AST) from language-dependent categorie from a source code in C programming language. 
 
 
-## Language-independent Authorship Attribution 
-This sub-project extracted some language-independent features including Code-based and Text-based from the source code. 
+## AuthAttLyzer-V2
+This sub-project extracted all language-independent features including Code-based and Text-based from the source code. 
 
 
 
@@ -19,12 +19,14 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  
-For citation in your works and also understanding AuthAttLyzer completely, you can find below published papers. For the Language-dependent part:
+For citation in your works and also understanding AuthAttLyzer completely, you can find below published papers. 
+
+For the AuthAttLyzer-V1:
 
  - Abhishek Chopra, Nikhill Vombatkere and Arash Habibi Lashkari, "AuthAttLyzer: A Robust defensive distillation-based Authorship Attribution framework", The 12th International Conference on Communication and Network Security (ICCNS22), Beijing, China, 2022
 
 
-For the language-independent-one:
+For the AuthAttLyzer-V2:
 
 
 
