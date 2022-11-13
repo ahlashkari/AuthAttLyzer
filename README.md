@@ -30,7 +30,7 @@ For the AuthAttLyzer-V2:
 
 * [**Abhishek Chopra:**](https://github.com/abhishekchopra0907) Researcher and developer
 
-
+* [**Nikhil vombatkere:**](https://github.com/NVombat) Researcher
 
 ### Acknowledgement 
 
