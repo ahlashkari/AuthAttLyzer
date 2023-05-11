@@ -13,7 +13,7 @@ This sub-project extracted all language-independent features including Code-base
 
 ### References and Citation for AuthAttLyzer-V2
 For citation in your works and also understanding AuthAttLyzer completely, you can find below published paper:
-- 
+
 
 
 
