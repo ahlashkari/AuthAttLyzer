@@ -15,9 +15,9 @@ For citation in your works and also understanding AuthAttLyzer completely, you c
 
 * [**Arash Habibi Lashkari:**](http://ahlashkari.com/index.asp) Founder and supervisor
 
-* [**Abhishek Chopra:**](https://github.com/abhishekchopra0907) Researcher and developer (AuthAttLyzer-V1)
+* [**Abhishek Chopra:**](https://github.com/abhishekchopra0907) Researcher and developer (AuthAttLyzer-V1, 2021-2023)
 
-* [**Nikhil vombatkere:**](https://github.com/NVombat) Researcher (AuthAttLyzer-V1)
+* [**Nikhil vombatkere:**](https://github.com/NVombat) Researcher (AuthAttLyzer-V1, 2022)
 
 ### Acknowledgement 
 
